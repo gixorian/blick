@@ -1,12 +1,6 @@
 use bytesize::ByteSize;
 use colored::Colorize;
-use std::{
-    env,
-    error::Error,
-    fs,
-    os::unix::fs::{MetadataExt, PermissionsExt},
-    path::Path,
-};
+use std::{env, error::Error, fs, os::unix::fs::MetadataExt, path::Path};
 
 use clap::Parser;
 
