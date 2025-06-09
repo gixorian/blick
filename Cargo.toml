@@ -1,0 +1,10 @@
+[package]
+name = "list"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytesize = "2.0.1"
+clap = { version = "4.0", features = ["derive"] }
+colored = "3.0.0"
+users = "0.11.0"
